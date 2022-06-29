@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/clac_main_tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:padding="50dp"
+        android:text="0"
+
+        />
+
+    <EditText
+        android:id="@+id/calc_main_et_fnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:hint="Enter First Number"
+        android:textSize="30sp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/calc_main_et_snum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:hint="Enter Second Number"
+        android:textSize="30sp"
+
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calc_main_b_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Sum"
+        android:textSize="30sp" />
+</LinearLayout>
